@@ -33,7 +33,7 @@ export default class BaseComponent extends React.Component {
     if (enableLocalStorage) {
       globalState[`enable-local-storage-${this.constructor.name}`] = enableLocalStorage;
       globalState[`desired-properties-${this.constructor.name}`] = desiredProperties;
-      globalState[`save-delay-${this.constructor.name}`] = parseInt(enableLocalStorage, 10) || 0;
+      globalState[`save-delay-${this.constructor.name}`] = parseInt(enableLocalStorage, 10) || 1000;
       try {
         globalState[this.constructor.name] = Object.assign(
           {},

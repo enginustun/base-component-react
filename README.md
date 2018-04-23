@@ -140,4 +140,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 I started to develop this library to get rid of workload of [Redux](https://github.com/reactjs/redux) implementation to our already-developed projects.
 
-For projects which will be started over I strongly encourage you to use Redux.
+For projects which you will be started over, I encourage you to use Redux if you need, but before ensure that you read this article first: [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)

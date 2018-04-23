@@ -1,12 +1,12 @@
 import React from 'react';
 import { expect } from 'chai';
 import Enzyme, { shallow } from 'enzyme';
-import { Base } from '../lib/base-component-react.js';
+import { Base as BaseComponent } from '../lib/base-component-react.js';
 import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-class TestComp extends Base {
+class TestComp extends BaseComponent {
   constructor(props) {
     super(props);
 
